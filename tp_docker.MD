@@ -80,16 +80,17 @@
 - Fournissez dans `P2` le ou les fichiers compose finaux.    
 
 
-## Partie 3 : Dockeriser une application existante
+## Partie 3 : Dockeriser des application existante
 
-- Choisir une application existante non dockerisée disponible sur Github
+- Choisir 2 ou 3 applications existante non conteneurisée disponibles sur Github
   - La complexité de l'application choisie influera la notation
   - Une liste d'application possible est fournie en fin de partie
+  - Choisir des applications utilisant des technologies différentes (nodejs, python, ruby, php, go, java, etc.)
 
---> Fournir l'URL du dépot de l'application
+--> Fournir l'URL des dépot de l'application
 --> Décrire les enjeux techniques de la conteneurisation liée à l'application (technologies plus mises à jour, nombreuses dépendances, interconnexion avec d'autres systèmes ...)
 
-- Écrire l'ensemble des fichiers permettant de déployer cette application avec Docker, docker-compose
+- Écrire l'ensemble des fichiers permettant de déployer ces application avec Docker, docker-compose
 
 - Critères évalués
    - Build reproductible (npm ci, pip install --no-deps, --frozen-lockfile, etc. selon techno).
@@ -99,12 +100,11 @@
    - Exposition réseau minimale, Aucune base de données exposée publiquement. 
    - Conteneurs runtime non-root quand praticable.
 
-- Déployer l'application choisie sur votre VPS
 
 - Faire une PR de votre travail à l'application choisie
 
-Liste application proposée à dockeriser, vous pouvez en choisir une autre si vous le souhaitez :
-Certaines sont vielles, mal documentés, incompréhensibles, c'est volontaire !
+Liste application proposée à conteneuriser, vous pouvez en choisir une autre si vous le souhaitez :
+Certaines sont vielles, mal documentées, incompréhensibles, c'est volontaire !
 
 - https://github.com/projectmirador/mirador-integration
 - https://github.com/Aikon-platform/aiiinotate
