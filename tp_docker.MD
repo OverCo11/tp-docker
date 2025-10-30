@@ -27,8 +27,9 @@
   - On prendra soin de ne pas inclure des fichiers et dossiers inutiles dans l'image (fichier `.dockerignore`)
 - Construire l'image en local, crée un conteneur l'utilisant et accéder à l'app
 
+*********************
 → À compléter : Fournir les commandes utilisées
-
+**********************
 - Écrire un fichier `docker-compose.yml` permettant de déployer cette application
 
 - Se connecter au VPS Debian fournie (durant l'installation, vous pouvez avancer sur la partie 2).
@@ -42,13 +43,16 @@
 - Vérifier que celle-ci est bien accessible
 
 - Publier votre image sur Dockerhub
-
+- 
+**********************
 → À compléter : Fournir URL de l'image sur Dockerhub
+**********************
 
 - Optimiser la taille de votre image avec docker-slim et la publier sur Dockerhub
 
+**********************
 → À compléter : Fournir URL de l'image slim sur Dockerhub et la taille avant/après optimisation
-
+**********************
 - Modifier votre fichier docker-compose pour que votre app utilise l'image Dockerhub
 
 - Fournissez dans `P1` le ou les fichiers compose finaux et le fichier Dockerfile.
@@ -87,8 +91,10 @@
   - Une liste d'application possible est fournie en fin de partie
   - Choisir des applications utilisant des technologies différentes (nodejs, python, ruby, php, go, java, etc.)
 
+**********************
 → Fournir l'URL des dépôts de l'application
 → Décrire les enjeux techniques de la conteneurisation liée à l'application (technologies plus mises à jour, nombreuses dépendances, interconnexion avec d'autres systèmes ...)
+**********************
 
 - Écrire l'ensemble des fichiers permettant de déployer ces applications avec Docker, docker-compose
 
@@ -129,7 +135,9 @@ Certaines sont vielles, mal documentées, incompréhensibles, c'est volontaire !
 - Qu'est-ce qu'un Reverse Proxy et à quoi est-ce que ça sert ?
 - Qu'est-ce qu'un `Application Proxy` et à quoi est-ce que ça sert ?
 
+**********************
 → À compléter
+**********************
 
 - Installer et déployer Traefik via Docker sur votre VPS
   - Traefik reçoit le Traefik sur les ports classiques (80, 443)
@@ -170,6 +178,7 @@ La stack proposée `VPS + Docker + Docker-compose + Traefik` est suffisante pour
   - Un hébergeur VPS
   - DockerHub
 
+**********************
 → À completer : Quelles sont les limites de cette approche et votre proposition de remplacement. (Réponse construite d'une dizaine de lignes)
-
+**********************
 
