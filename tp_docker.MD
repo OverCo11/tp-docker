@@ -182,6 +182,7 @@ Certaines sont vielles, mal documentées, incompréhensibles, c'est volontaire !
 **********************
 
 - Installer et déployer Traefik via `Docker` sur votre VPS
+  - Voir fichier `memoVPS.md` 
   - Traefik reçoit le trafic sur les ports classiques (80, 443)
   - La page dashboard de Traefik est déployé à *votreURLdeVPS* et vous permet de vérifier que tout fonctionne
 
